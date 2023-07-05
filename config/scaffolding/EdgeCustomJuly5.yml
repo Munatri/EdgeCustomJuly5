@@ -1,0 +1,13 @@
+version: "1.0"
+info:
+  scaffold: dt
+  model: int-scaffold
+services:
+- serviceName: pub.date:currentNanoTime
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.286
+- serviceName: edge.customjuly5.integrations:dt
+  packages:
+  - name: EdgeCustomJuly5
+    version: "1.0"
