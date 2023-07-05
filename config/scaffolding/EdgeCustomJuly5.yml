@@ -1,17 +1,13 @@
 version: "1.0"
 info:
-  scaffold: Copy_GetMoreDates4Dave
+  scaffold: Debug4WIE645
   model: int-scaffold
 services:
 - serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
     version: 11.0.0.0.286
-- serviceName: edge.customjuly5.integrations:Copy_GetMoreDates4Dave
+- serviceName: edge.customjuly5.integrations:Debug4WIE645
   packages:
   - name: EdgeCustomJuly5
     version: "1.0"
-- serviceName: pub.date:getCurrentDateString
-  packages:
-  - name: WmPublic
-    version: 11.0.0.0.286
