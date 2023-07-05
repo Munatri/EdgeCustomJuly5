@@ -44,13 +44,12 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">host</value>
-    <value name="createdDate">1688542246965</value>
-    <value name="lastModifiedDate">1688542246965</value>
+    <value name="lastModifiedBy">wmio</value>
+    <value name="lastModifiedDate">1688545209695</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="group">Default</value>
-      <value name="id">default</value>
-      <value name="name">Cloud Execution</value>
+      <value name="id">f0b75f5a2a51466c899f432b9522b27e</value>
+      <value name="group">default</value>
+      <value name="name">Test4WIE645</value>
     </record>
     <value name="displayName">Debug4WIE645</value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -71,6 +70,8 @@
         <number name="nodeIndex" type="Long">0</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
     </record>
   </record>
