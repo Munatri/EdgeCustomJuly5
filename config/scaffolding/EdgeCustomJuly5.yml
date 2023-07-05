@@ -1,13 +1,17 @@
 version: "1.0"
 info:
-  scaffold: dt
+  scaffold: Copy_GetMoreDates4Dave
   model: int-scaffold
 services:
-- serviceName: pub.date:currentNanoTime
+- serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
     version: 11.0.0.0.286
-- serviceName: edge.customjuly5.integrations:dt
+- serviceName: edge.customjuly5.integrations:Copy_GetMoreDates4Dave
   packages:
   - name: EdgeCustomJuly5
     version: "1.0"
+- serviceName: pub.date:getCurrentDateString
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.286
